@@ -1,0 +1,17 @@
+D:\vb_projects\CellMessenger\bin\Release\CellModemLibrary.dll.config
+D:\vb_projects\CellMessenger\bin\Release\CellModemLibrary.dll
+D:\vb_projects\CellMessenger\bin\Release\CellModemLibrary.pdb
+D:\vb_projects\CellMessenger\bin\Release\CellModemLibrary.xml
+D:\vb_projects\CellMessenger\CellModemLibrary\obj\x86\Release\CellModemLibrary.vbproj.App.config
+D:\vb_projects\CellMessenger\CellModemLibrary\obj\x86\Release\CellModemLibrary.vbprojAssemblyReference.cache
+D:\vb_projects\CellMessenger\CellModemLibrary\obj\x86\Release\Interop.ASPTypeLibrary.dll
+D:\vb_projects\CellMessenger\CellModemLibrary\obj\x86\Release\Interop.Scripting.dll
+D:\vb_projects\CellMessenger\CellModemLibrary\obj\x86\Release\Interop.telligent.dll
+D:\vb_projects\CellMessenger\CellModemLibrary\obj\x86\Release\CellModemLibrary.vbproj.ResolveComReference.cache
+D:\vb_projects\CellMessenger\CellModemLibrary\obj\x86\Release\CellModemLibrary.Resources.resources
+D:\vb_projects\CellMessenger\CellModemLibrary\obj\x86\Release\CellModemLibrary.vbproj.GenerateResource.cache
+D:\vb_projects\CellMessenger\CellModemLibrary\obj\x86\Release\CellModemLibrary.vbproj.CoreCompileInputs.cache
+D:\vb_projects\CellMessenger\CellModemLibrary\obj\x86\Release\CellModemLibrary.vbproj.CopyComplete
+D:\vb_projects\CellMessenger\CellModemLibrary\obj\x86\Release\CellModemLibrary.dll
+D:\vb_projects\CellMessenger\CellModemLibrary\obj\x86\Release\CellModemLibrary.xml
+D:\vb_projects\CellMessenger\CellModemLibrary\obj\x86\Release\CellModemLibrary.pdb

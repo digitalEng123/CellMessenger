@@ -1,0 +1,2139 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CellModemLibrary
+</name>
+</assembly>
+<members>
+<member name="T:CellModemLibrary.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:CellModemLibrary.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:CellModemLibrary.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:CellModemLibrary.BandwidthSMS.#ctor">
+ <summary>
+ Constructor #1
+ </summary>
+</member>
+<member name="M:CellModemLibrary.BandwidthSMS.#ctor(System.String,System.String,System.Int32,System.String,System.Int32,System.String)">
+ <summary>
+ Constructor #2
+ </summary>
+ <param name="ownNumber"></param>
+ <param name="portName"></param>
+ <param name="baudRate"></param>
+ <param name="parityName"></param>
+ <param name="dataBits"></param>
+ <param name="stopBitsName"></param>
+</member>
+<member name="M:CellModemLibrary.BandwidthSMS.Connect">
+ <summary>
+ 
+ </summary>
+ <returns></returns>
+ <remarks>
+ Ref Link #1: Await Deadlock issue: https://blog.stephencleary.com/2012/07/dont-block-on-async-code.html
+ </remarks>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailRouting.intRecordID_DatabaseID">
+ <summary>
+ The intRecordID_DatabaseID column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailRouting.lblMailRoutingInformation">
+ <summary>
+ The lblMailRoutingInformation column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailRouting.ixtCode">
+ <summary>
+ The ixtCode column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailRouting.txtDescription">
+ <summary>
+ The txtDescription column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailRouting.txtElectronicDataExchangeCode">
+ <summary>
+ The txtElectronicDataExchangeCode column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailRouting.lblCalendarReminder">
+ <summary>
+ The lblCalendarReminder column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailRouting.dteFollowUpDate">
+ <summary>
+ The dteFollowUpDate column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailRouting.txtEventStartTime">
+ <summary>
+ The txtEventStartTime column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailRouting.txtEventEndTime">
+ <summary>
+ The txtEventEndTime column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailRouting.lblMailRoutingRecordInformation">
+ <summary>
+ The lblMailRoutingRecordInformation column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailRouting.blnMakePrivate">
+ <summary>
+ The blnMakePrivate column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailRouting.blnActive">
+ <summary>
+ The blnActive column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailRouting.txtRecordCreationUser">
+ <summary>
+ The txtRecordCreationUser column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailRouting.dteRecordCreationDate">
+ <summary>
+ The dteRecordCreationDate column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailRouting.dteRecordUpdateDate">
+ <summary>
+ The dteRecordUpdateDate column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailRouting.blnCursor">
+ <summary>
+ The blnCursor column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailRouting.intRecordID_Company">
+ <summary>
+ The intRecordID_Company column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailRouting.intRecordID_Division">
+ <summary>
+ The intRecordID_Division column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailRouting.intRecordID">
+ <summary>
+ The intRecordID column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailRouting.intRecordID_User_Creation">
+ <summary>
+ The intRecordID_User_Creation column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailRouting.blnAttachment">
+ <summary>
+ The blnAttachment column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailRouting.blnDeleted">
+ <summary>
+ The blnDeleted column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailRouting.blnHighlight">
+ <summary>
+ The blnHighlight column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailRouting.blnMemo">
+ <summary>
+ The blnMemo column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailRouting.blnProcess">
+ <summary>
+ The blnProcess column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailRouting.blnProject">
+ <summary>
+ The blnProject column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailRouting.intRecordID_ErrorLog">
+ <summary>
+ The intRecordID_ErrorLog column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailRouting.intRecordID_Status">
+ <summary>
+ The intRecordID_Status column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailRouting.blnPrint">
+ <summary>
+ The blnPrint column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailRouting.txtRecordUpdateUser">
+ <summary>
+ The txtRecordUpdateUser column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailRouting.dteRecordSynchronization">
+ <summary>
+ The dteRecordSynchronization column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailRouting.blnWebSearch">
+ <summary>
+ The blnWebSearch column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailRouting.blnSecurity">
+ <summary>
+ The blnSecurity column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailRouting.blnErrorLog">
+ <summary>
+ The blnErrorLog column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailRouting.blnAuditTrail">
+ <summary>
+ The blnAuditTrail column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailRouting.txtFieldValueGenerator">
+ <summary>
+ The txtFieldValueGenerator column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailRouting.blnSystemRecord">
+ <summary>
+ The blnSystemRecord column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailRouting.blnEcommerceTransmit">
+ <summary>
+ The blnEcommerceTransmit column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailRouting.txtGUID">
+ <summary>
+ The txtGUID column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailRouting.blnFavorite">
+ <summary>
+ The blnFavorite column is in the DB
+ </summary>
+</member>
+<member name="M:CellModemLibrary.Lookups.tblMailRouting.ToString">
+ <summary>
+ Overrides the ToString Function.
+ </summary>
+ <returns>The string representation of the Object</returns>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailStatus.intRecordID_DatabaseID">
+ <summary>
+ The intRecordID_DatabaseID column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailStatus.lblMailStatusInformation">
+ <summary>
+ The lblMailStatusInformation column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailStatus.ixtCode">
+ <summary>
+ The ixtCode column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailStatus.txtDescription">
+ <summary>
+ The txtDescription column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailStatus.txtElectronicDataExchangeCode">
+ <summary>
+ The txtElectronicDataExchangeCode column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailStatus.lblCalendarReminder">
+ <summary>
+ The lblCalendarReminder column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailStatus.dteFollowUpDate">
+ <summary>
+ The dteFollowUpDate column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailStatus.txtEventStartTime">
+ <summary>
+ The txtEventStartTime column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailStatus.txtEventEndTime">
+ <summary>
+ The txtEventEndTime column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailStatus.lblMailStatusRecordInformation">
+ <summary>
+ The lblMailStatusRecordInformation column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailStatus.blnMakePrivate">
+ <summary>
+ The blnMakePrivate column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailStatus.blnActive">
+ <summary>
+ The blnActive column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailStatus.txtRecordCreationUser">
+ <summary>
+ The txtRecordCreationUser column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailStatus.dteRecordCreationDate">
+ <summary>
+ The dteRecordCreationDate column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailStatus.dteRecordUpdateDate">
+ <summary>
+ The dteRecordUpdateDate column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailStatus.blnCursor">
+ <summary>
+ The blnCursor column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailStatus.intRecordID_Company">
+ <summary>
+ The intRecordID_Company column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailStatus.intRecordID_Division">
+ <summary>
+ The intRecordID_Division column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailStatus.intRecordID">
+ <summary>
+ The intRecordID column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailStatus.intRecordID_User_Creation">
+ <summary>
+ The intRecordID_User_Creation column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailStatus.blnAttachment">
+ <summary>
+ The blnAttachment column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailStatus.blnDeleted">
+ <summary>
+ The blnDeleted column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailStatus.blnHighlight">
+ <summary>
+ The blnHighlight column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailStatus.blnMemo">
+ <summary>
+ The blnMemo column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailStatus.blnProcess">
+ <summary>
+ The blnProcess column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailStatus.blnProject">
+ <summary>
+ The blnProject column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailStatus.intRecordID_ErrorLog">
+ <summary>
+ The intRecordID_ErrorLog column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailStatus.intRecordID_Status">
+ <summary>
+ The intRecordID_Status column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailStatus.blnPrint">
+ <summary>
+ The blnPrint column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailStatus.txtRecordUpdateUser">
+ <summary>
+ The txtRecordUpdateUser column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailStatus.blnWebSearch">
+ <summary>
+ The blnWebSearch column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailStatus.blnEcommerceTransmit">
+ <summary>
+ The blnEcommerceTransmit column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailStatus.blnSecurity">
+ <summary>
+ The blnSecurity column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailStatus.dteRecordSynchronization">
+ <summary>
+ The dteRecordSynchronization column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailStatus.blnErrorLog">
+ <summary>
+ The blnErrorLog column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailStatus.txtFieldValueGenerator">
+ <summary>
+ The txtFieldValueGenerator column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailStatus.blnSystemRecord">
+ <summary>
+ The blnSystemRecord column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailStatus.blnAuditTrail">
+ <summary>
+ The blnAuditTrail column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailStatus.txtGUID">
+ <summary>
+ The txtGUID column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailStatus.blnFavorite">
+ <summary>
+ The blnFavorite column is in the DB
+ </summary>
+</member>
+<member name="M:CellModemLibrary.Lookups.tblMailStatus.ToString">
+ <summary>
+ Overrides the ToString Function.
+ </summary>
+ <returns>The string representation of the Object</returns>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailType.intRecordID_DatabaseID">
+ <summary>
+ The intRecordID_DatabaseID column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailType.lblMailTypeInformation">
+ <summary>
+ The lblMailTypeInformation column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailType.ixtCode">
+ <summary>
+ The ixtCode column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailType.txtDescription">
+ <summary>
+ The txtDescription column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailType.decMaxNumberOfCharacters">
+ <summary>
+ The decMaxNumberOfCharacters column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailType.txtElectronicDataExchangeCode">
+ <summary>
+ The txtElectronicDataExchangeCode column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailType.lblCalendarReminder">
+ <summary>
+ The lblCalendarReminder column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailType.dteFollowUpDate">
+ <summary>
+ The dteFollowUpDate column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailType.txtEventStartTime">
+ <summary>
+ The txtEventStartTime column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailType.txtEventEndTime">
+ <summary>
+ The txtEventEndTime column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailType.lblMailTypeRecordInformation">
+ <summary>
+ The lblMailTypeRecordInformation column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailType.blnMakePrivate">
+ <summary>
+ The blnMakePrivate column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailType.blnActive">
+ <summary>
+ The blnActive column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailType.txtRecordCreationUser">
+ <summary>
+ The txtRecordCreationUser column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailType.dteRecordCreationDate">
+ <summary>
+ The dteRecordCreationDate column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailType.dteRecordUpdateDate">
+ <summary>
+ The dteRecordUpdateDate column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailType.blnCursor">
+ <summary>
+ The blnCursor column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailType.intRecordID_Company">
+ <summary>
+ The intRecordID_Company column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailType.intRecordID_Division">
+ <summary>
+ The intRecordID_Division column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailType.intRecordID">
+ <summary>
+ The intRecordID column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailType.intRecordID_User_Creation">
+ <summary>
+ The intRecordID_User_Creation column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailType.blnAttachment">
+ <summary>
+ The blnAttachment column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailType.blnDeleted">
+ <summary>
+ The blnDeleted column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailType.blnHighlight">
+ <summary>
+ The blnHighlight column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailType.blnMemo">
+ <summary>
+ The blnMemo column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailType.blnProcess">
+ <summary>
+ The blnProcess column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailType.blnProject">
+ <summary>
+ The blnProject column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailType.intRecordID_ErrorLog">
+ <summary>
+ The intRecordID_ErrorLog column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailType.intRecordID_Status">
+ <summary>
+ The intRecordID_Status column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailType.blnPrint">
+ <summary>
+ The blnPrint column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailType.txtRecordUpdateUser">
+ <summary>
+ The txtRecordUpdateUser column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailType.blnWebSearch">
+ <summary>
+ The blnWebSearch column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailType.blnEcommerceTransmit">
+ <summary>
+ The blnEcommerceTransmit column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailType.blnSecurity">
+ <summary>
+ The blnSecurity column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailType.dteRecordSynchronization">
+ <summary>
+ The dteRecordSynchronization column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailType.blnErrorLog">
+ <summary>
+ The blnErrorLog column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailType.txtFieldValueGenerator">
+ <summary>
+ The txtFieldValueGenerator column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailType.blnSystemRecord">
+ <summary>
+ The blnSystemRecord column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailType.blnAuditTrail">
+ <summary>
+ The blnAuditTrail column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailType.txtGUID">
+ <summary>
+ The txtGUID column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMailType.blnFavorite">
+ <summary>
+ The blnFavorite column is in the DB
+ </summary>
+</member>
+<member name="M:CellModemLibrary.Lookups.tblMailType.ToString">
+ <summary>
+ Overrides the ToString Function.
+ </summary>
+ <returns>The string representation of the Object</returns>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryState.intRecordID_DatabaseID">
+ <summary>
+ The intRecordID_DatabaseID column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryState.lblMessengerDeliveryStateInformation">
+ <summary>
+ The lblMessengerDeliveryStateInformation column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryState.ixtCode">
+ <summary>
+ The ixtCode column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryState.txtDescription">
+ <summary>
+ The txtDescription column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryState.txtElectronicDataExchangeCode">
+ <summary>
+ The txtElectronicDataExchangeCode column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryState.lblCalendarReminder">
+ <summary>
+ The lblCalendarReminder column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryState.dteFollowUpDate">
+ <summary>
+ The dteFollowUpDate column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryState.txtEventStartTime">
+ <summary>
+ The txtEventStartTime column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryState.txtEventEndTime">
+ <summary>
+ The txtEventEndTime column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryState.lblMessengerDeliveryStateRecordInformation">
+ <summary>
+ The lblMessengerDeliveryStateRecordInformation column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryState.blnMakePrivate">
+ <summary>
+ The blnMakePrivate column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryState.blnActive">
+ <summary>
+ The blnActive column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryState.txtRecordCreationUser">
+ <summary>
+ The txtRecordCreationUser column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryState.dteRecordCreationDate">
+ <summary>
+ The dteRecordCreationDate column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryState.dteRecordUpdateDate">
+ <summary>
+ The dteRecordUpdateDate column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryState.blnCursor">
+ <summary>
+ The blnCursor column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryState.intRecordID_Company">
+ <summary>
+ The intRecordID_Company column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryState.intRecordID_Division">
+ <summary>
+ The intRecordID_Division column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryState.intRecordID">
+ <summary>
+ The intRecordID column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryState.intRecordID_User_Creation">
+ <summary>
+ The intRecordID_User_Creation column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryState.blnAttachment">
+ <summary>
+ The blnAttachment column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryState.blnDeleted">
+ <summary>
+ The blnDeleted column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryState.blnHighlight">
+ <summary>
+ The blnHighlight column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryState.blnMemo">
+ <summary>
+ The blnMemo column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryState.blnProcess">
+ <summary>
+ The blnProcess column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryState.blnProject">
+ <summary>
+ The blnProject column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryState.intRecordID_ErrorLog">
+ <summary>
+ The intRecordID_ErrorLog column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryState.intRecordID_Status">
+ <summary>
+ The intRecordID_Status column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryState.blnPrint">
+ <summary>
+ The blnPrint column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryState.txtRecordUpdateUser">
+ <summary>
+ The txtRecordUpdateUser column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryState.dteRecordSynchronization">
+ <summary>
+ The dteRecordSynchronization column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryState.blnWebSearch">
+ <summary>
+ The blnWebSearch column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryState.blnSecurity">
+ <summary>
+ The blnSecurity column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryState.blnErrorLog">
+ <summary>
+ The blnErrorLog column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryState.blnAuditTrail">
+ <summary>
+ The blnAuditTrail column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryState.txtFieldValueGenerator">
+ <summary>
+ The txtFieldValueGenerator column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryState.blnSystemRecord">
+ <summary>
+ The blnSystemRecord column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryState.blnEcommerceTransmit">
+ <summary>
+ The blnEcommerceTransmit column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryState.txtGUID">
+ <summary>
+ The txtGUID column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryState.blnFavorite">
+ <summary>
+ The blnFavorite column is in the DB
+ </summary>
+</member>
+<member name="M:CellModemLibrary.Lookups.tblMessengerDeliveryState.ToString">
+ <summary>
+ Overrides the ToString Function.
+ </summary>
+ <returns>The string representation of the Object</returns>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryCode.intRecordID_DatabaseID">
+ <summary>
+ The intRecordID_DatabaseID column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryCode.lblMessengerDeliveryCodeInformation">
+ <summary>
+ The lblMessengerDeliveryCodeInformation column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryCode.ixtCode">
+ <summary>
+ The ixtCode column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryCode.txtDescription">
+ <summary>
+ The txtDescription column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryCode.txtElectronicDataExchangeCode">
+ <summary>
+ The txtElectronicDataExchangeCode column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryCode.lblCalendarReminder">
+ <summary>
+ The lblCalendarReminder column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryCode.dteFollowUpDate">
+ <summary>
+ The dteFollowUpDate column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryCode.txtEventStartTime">
+ <summary>
+ The txtEventStartTime column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryCode.txtEventEndTime">
+ <summary>
+ The txtEventEndTime column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryCode.lblMessengerDeliveryCodeRecordInformation">
+ <summary>
+ The lblMessengerDeliveryCodeRecordInformation column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryCode.blnMakePrivate">
+ <summary>
+ The blnMakePrivate column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryCode.blnActive">
+ <summary>
+ The blnActive column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryCode.txtRecordCreationUser">
+ <summary>
+ The txtRecordCreationUser column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryCode.dteRecordCreationDate">
+ <summary>
+ The dteRecordCreationDate column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryCode.dteRecordUpdateDate">
+ <summary>
+ The dteRecordUpdateDate column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryCode.blnCursor">
+ <summary>
+ The blnCursor column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryCode.intRecordID_Company">
+ <summary>
+ The intRecordID_Company column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryCode.intRecordID_Division">
+ <summary>
+ The intRecordID_Division column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryCode.intRecordID">
+ <summary>
+ The intRecordID column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryCode.intRecordID_User_Creation">
+ <summary>
+ The intRecordID_User_Creation column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryCode.blnAttachment">
+ <summary>
+ The blnAttachment column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryCode.blnDeleted">
+ <summary>
+ The blnDeleted column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryCode.blnHighlight">
+ <summary>
+ The blnHighlight column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryCode.blnMemo">
+ <summary>
+ The blnMemo column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryCode.blnProcess">
+ <summary>
+ The blnProcess column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryCode.blnProject">
+ <summary>
+ The blnProject column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryCode.intRecordID_ErrorLog">
+ <summary>
+ The intRecordID_ErrorLog column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryCode.intRecordID_Status">
+ <summary>
+ The intRecordID_Status column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryCode.blnPrint">
+ <summary>
+ The blnPrint column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryCode.txtRecordUpdateUser">
+ <summary>
+ The txtRecordUpdateUser column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryCode.dteRecordSynchronization">
+ <summary>
+ The dteRecordSynchronization column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryCode.blnWebSearch">
+ <summary>
+ The blnWebSearch column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryCode.blnSecurity">
+ <summary>
+ The blnSecurity column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryCode.blnErrorLog">
+ <summary>
+ The blnErrorLog column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryCode.blnAuditTrail">
+ <summary>
+ The blnAuditTrail column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryCode.txtFieldValueGenerator">
+ <summary>
+ The txtFieldValueGenerator column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryCode.blnSystemRecord">
+ <summary>
+ The blnSystemRecord column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryCode.blnEcommerceTransmit">
+ <summary>
+ The blnEcommerceTransmit column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryCode.txtGUID">
+ <summary>
+ The txtGUID column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Lookups.tblMessengerDeliveryCode.blnFavorite">
+ <summary>
+ The blnFavorite column is in the DB
+ </summary>
+</member>
+<member name="M:CellModemLibrary.Lookups.tblMessengerDeliveryCode.ToString">
+ <summary>
+ Overrides the ToString Function.
+ </summary>
+ <returns>The string representation of the Object</returns>
+</member>
+<member name="M:CellModemLibrary.SqlHelper.ExecuteScaler(System.String)">
+ <summary>
+ Execute a scaler query againat the database, and return the results.
+ </summary>
+ <param name="sql"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:CellModemLibrary.SqlHelper.ExecuteNonQuery(System.String)">
+ <summary>
+ 'Execute a non scaler query agaianst the database.
+ </summary>
+ <param name="sql"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:CellModemLibrary.SqlHelper.GetValueIfAny(System.String)">
+ <summary>
+ Get string value if any.
+ </summary>
+ <param name="value"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:CellModemLibrary.SqlHelper.GetValueIfAny(System.Nullable{System.Int32})">
+ <summary>
+ Get integer value if any.
+ </summary>
+ <param name="value"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:CellModemLibrary.SqlHelper.GetValueIfAny(System.Nullable{System.Double})">
+ <summary>
+ Get double value if any.
+ </summary>
+ <param name="value"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:CellModemLibrary.SqlHelper.GetValueIfAny(System.Nullable{System.DateTime})">
+ <summary>
+ Get date value if any.
+ </summary>
+ <param name="value"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:CellModemLibrary.SqlHelper.GetValueIfAny(System.Nullable{System.Guid})">
+ <summary>
+ Get date value if any.
+ </summary>
+ <param name="value"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:CellModemLibrary.SqlHelper.TrunicateValueIfAny(System.Object,System.Int32)">
+ <summary>
+ Trunicate string value is value is not DbNull, and or nothing
+ </summary>
+ <param name="value"></param>
+ <param name="length"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:CellModemLibrary.tblMessengerTransaction.intRecordID_DatabaseID">
+ <summary>
+ The intRecordID_DatabaseID column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.tblMessengerTransaction.lblMessengerTransactionInformation">
+ <summary>
+ The lblMessengerTransactionInformation column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.tblMessengerTransaction.ixtCode">
+ <summary>
+ The ixtCode column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.tblMessengerTransaction.txtDescription">
+ <summary>
+ The txtDescription column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.tblMessengerTransaction.lblMessengerTransaction">
+ <summary>
+ The lblMessengerTransaction column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.tblMessengerTransaction.intRecordID_MessengerConfiguration">
+ <summary>
+ The intRecordID_MessengerConfiguration column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.tblMessengerTransaction.intRecordID_MessengerCommunicationProvider">
+ <summary>
+ The intRecordID_MessengerCommunicationProvider column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.tblMessengerTransaction.intRecordID_MessengerDeliveryState">
+ <summary>
+ The intRecordID_MessengerDeliveryState column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.tblMessengerTransaction.intRecordID_MessengerDeliveryCode">
+ <summary>
+ The intRecordID_MessengerDeliveryCode column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.tblMessengerTransaction.intRecordID_Mail">
+ <summary>
+ The intRecordID_Mail column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.tblMessengerTransaction.intRecordID_MailDetail">
+ <summary>
+ The intRecordID_MailDetail column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.tblMessengerTransaction.decMaxNumberOfCharacters">
+ <summary>
+ The decMaxNumberOfCharacters column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.tblMessengerTransaction.mmoTransaction">
+ <summary>
+ The mmoTransaction column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.tblMessengerTransaction.txtElectronicDataExchangeCode">
+ <summary>
+ The txtElectronicDataExchangeCode column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.tblMessengerTransaction.lblCalendarReminder">
+ <summary>
+ The lblCalendarReminder column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.tblMessengerTransaction.dteFollowUpDate">
+ <summary>
+ The dteFollowUpDate column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.tblMessengerTransaction.txtEventStartTime">
+ <summary>
+ The txtEventStartTime column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.tblMessengerTransaction.txtEventEndTime">
+ <summary>
+ The txtEventEndTime column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.tblMessengerTransaction.lblMessengerTransactionRecordInformation">
+ <summary>
+ The lblMessengerTransactionRecordInformation column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.tblMessengerTransaction.blnMakePrivate">
+ <summary>
+ The blnMakePrivate column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.tblMessengerTransaction.blnActive">
+ <summary>
+ The blnActive column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.tblMessengerTransaction.txtRecordCreationUser">
+ <summary>
+ The txtRecordCreationUser column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.tblMessengerTransaction.dteRecordCreationDate">
+ <summary>
+ The dteRecordCreationDate column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.tblMessengerTransaction.dteRecordUpdateDate">
+ <summary>
+ The dteRecordUpdateDate column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.tblMessengerTransaction.blnCursor">
+ <summary>
+ The blnCursor column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.tblMessengerTransaction.intRecordID_Company">
+ <summary>
+ The intRecordID_Company column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.tblMessengerTransaction.intRecordID_Division">
+ <summary>
+ The intRecordID_Division column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.tblMessengerTransaction.intRecordID">
+ <summary>
+ The intRecordID column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.tblMessengerTransaction.intRecordID_User_Creation">
+ <summary>
+ The intRecordID_User_Creation column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.tblMessengerTransaction.blnAttachment">
+ <summary>
+ The blnAttachment column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.tblMessengerTransaction.blnDeleted">
+ <summary>
+ The blnDeleted column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.tblMessengerTransaction.blnHighlight">
+ <summary>
+ The blnHighlight column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.tblMessengerTransaction.blnMemo">
+ <summary>
+ The blnMemo column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.tblMessengerTransaction.blnProcess">
+ <summary>
+ The blnProcess column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.tblMessengerTransaction.blnProject">
+ <summary>
+ The blnProject column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.tblMessengerTransaction.intRecordID_ErrorLog">
+ <summary>
+ The intRecordID_ErrorLog column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.tblMessengerTransaction.intRecordID_Status">
+ <summary>
+ The intRecordID_Status column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.tblMessengerTransaction.blnPrint">
+ <summary>
+ The blnPrint column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.tblMessengerTransaction.txtRecordUpdateUser">
+ <summary>
+ The txtRecordUpdateUser column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.tblMessengerTransaction.blnWebSearch">
+ <summary>
+ The blnWebSearch column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.tblMessengerTransaction.blnEcommerceTransmit">
+ <summary>
+ The blnEcommerceTransmit column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.tblMessengerTransaction.blnSecurity">
+ <summary>
+ The blnSecurity column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.tblMessengerTransaction.dteRecordSynchronization">
+ <summary>
+ The dteRecordSynchronization column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.tblMessengerTransaction.blnErrorLog">
+ <summary>
+ The blnErrorLog column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.tblMessengerTransaction.txtFieldValueGenerator">
+ <summary>
+ The txtFieldValueGenerator column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.tblMessengerTransaction.blnSystemRecord">
+ <summary>
+ The blnSystemRecord column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.tblMessengerTransaction.blnAuditTrail">
+ <summary>
+ The blnAuditTrail column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.tblMessengerTransaction.txtGUID">
+ <summary>
+ The txtGUID column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.tblMessengerTransaction.blnFavorite">
+ <summary>
+ The blnFavorite column is in the DB
+ </summary>
+</member>
+<member name="M:CellModemLibrary.tblMessengerTransaction.ToString">
+ <summary>
+ Overrides the ToString Function.
+ </summary>
+ <returns>The string representation of the Object</returns>
+</member>
+<member name="M:CellModemLibrary.DataItem.#ctor">
+ <summary>
+ Constructor #1
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:CellModemLibrary.DataItem.#ctor(System.String,System.Object)">
+ <summary>
+ Constructor #2
+ </summary>
+ <param name="displayMember"></param>
+ <param name="valueMember"></param>
+ <remarks></remarks>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerCommunicationProvider.intRecordID_DatabaseID">
+ <summary>
+ The intRecordID_DatabaseID column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerCommunicationProvider.lblMessengerCommunicationProvider">
+ <summary>
+ The lblMessengerCommunicationProvider column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerCommunicationProvider.ixtCode">
+ <summary>
+ The ixtCode column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerCommunicationProvider.txtDescription">
+ <summary>
+ The txtDescription column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerCommunicationProvider.intRecordID_MessengerAgentConfig">
+ <summary>
+ The intRecordID_MessengerAgentConfig column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerCommunicationProvider.lblMessengerCommunicationProviderConfiguration">
+ <summary>
+ The lblMessengerCommunicationProviderConfiguration column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerCommunicationProvider.txtUserName">
+ <summary>
+ The txtUserName column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerCommunicationProvider.txtPassword">
+ <summary>
+ The txtPassword column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerCommunicationProvider.txtAccountID">
+ <summary>
+ The txtAccountID column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerCommunicationProvider.txtSubAccountID">
+ <summary>
+ The txtSubAccountID column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerCommunicationProvider.txtUserID">
+ <summary>
+ The txtUserID column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerCommunicationProvider.txtAPIToken">
+ <summary>
+ The txtAPIToken column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerCommunicationProvider.txtAPISecretKey">
+ <summary>
+ The txtAPISecretKey column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerCommunicationProvider.mmoLoginUrlWIC">
+ <summary>
+ The mmoLoginUrlWIC column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerCommunicationProvider.dteAccountRequestExpirationDate">
+ <summary>
+ The dteAccountRequestExpirationDate column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerCommunicationProvider.txtElectronicDataExchangeCode">
+ <summary>
+ The txtElectronicDataExchangeCode column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerCommunicationProvider.lblCalendarReminder">
+ <summary>
+ The lblCalendarReminder column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerCommunicationProvider.dteFollowUpDate">
+ <summary>
+ The dteFollowUpDate column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerCommunicationProvider.txtEventStartTime">
+ <summary>
+ The txtEventStartTime column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerCommunicationProvider.txtEventEndTime">
+ <summary>
+ The txtEventEndTime column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerCommunicationProvider.lblMessengerCommunicationProviderInformation">
+ <summary>
+ The lblMessengerCommunicationProviderInformation column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerCommunicationProvider.blnMakePrivate">
+ <summary>
+ The blnMakePrivate column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerCommunicationProvider.blnActive">
+ <summary>
+ The blnActive column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerCommunicationProvider.txtRecordCreationUser">
+ <summary>
+ The txtRecordCreationUser column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerCommunicationProvider.dteRecordCreationDate">
+ <summary>
+ The dteRecordCreationDate column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerCommunicationProvider.dteRecordUpdateDate">
+ <summary>
+ The dteRecordUpdateDate column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerCommunicationProvider.blnCursor">
+ <summary>
+ The blnCursor column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerCommunicationProvider.intRecordID_Company">
+ <summary>
+ The intRecordID_Company column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerCommunicationProvider.intRecordID_Division">
+ <summary>
+ The intRecordID_Division column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerCommunicationProvider.intRecordID">
+ <summary>
+ The intRecordID column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerCommunicationProvider.intRecordID_User_Creation">
+ <summary>
+ The intRecordID_User_Creation column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerCommunicationProvider.blnAttachment">
+ <summary>
+ The blnAttachment column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerCommunicationProvider.blnDeleted">
+ <summary>
+ The blnDeleted column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerCommunicationProvider.blnHighlight">
+ <summary>
+ The blnHighlight column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerCommunicationProvider.blnMemo">
+ <summary>
+ The blnMemo column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerCommunicationProvider.blnProcess">
+ <summary>
+ The blnProcess column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerCommunicationProvider.blnProject">
+ <summary>
+ The blnProject column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerCommunicationProvider.intRecordID_ErrorLog">
+ <summary>
+ The intRecordID_ErrorLog column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerCommunicationProvider.intRecordID_Status">
+ <summary>
+ The intRecordID_Status column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerCommunicationProvider.blnPrint">
+ <summary>
+ The blnPrint column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerCommunicationProvider.txtRecordUpdateUser">
+ <summary>
+ The txtRecordUpdateUser column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerCommunicationProvider.dteRecordSynchronization">
+ <summary>
+ The dteRecordSynchronization column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerCommunicationProvider.blnWebSearch">
+ <summary>
+ The blnWebSearch column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerCommunicationProvider.blnSecurity">
+ <summary>
+ The blnSecurity column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerCommunicationProvider.blnErrorLog">
+ <summary>
+ The blnErrorLog column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerCommunicationProvider.blnFavorite">
+ <summary>
+ The blnFavorite column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerCommunicationProvider.blnAuditTrail">
+ <summary>
+ The blnAuditTrail column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerCommunicationProvider.txtFieldValueGenerator">
+ <summary>
+ The txtFieldValueGenerator column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerCommunicationProvider.blnSystemRecord">
+ <summary>
+ The blnSystemRecord column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerCommunicationProvider.blnEcommerceTransmit">
+ <summary>
+ The blnEcommerceTransmit column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerCommunicationProvider.txtGUID">
+ <summary>
+ The txtGUID column is in the DB
+ </summary>
+</member>
+<member name="M:CellModemLibrary.Configuration.tblMessengerCommunicationProvider.ToString">
+ <summary>
+ Overrides the ToString Function.
+ </summary>
+ <returns>The string representation of the Object</returns>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.intRecordID_DatabaseID">
+ <summary>
+ The intRecordID_DatabaseID column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.lblMessengerConfigurationInformation">
+ <summary>
+ The lblMessengerConfigurationInformation column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.ixtCode">
+ <summary>
+ The ixtCode column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.txtDescription">
+ <summary>
+ The txtDescription column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.lblMailMessengerConfiguration">
+ <summary>
+ The lblMailMessengerConfiguration column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.lbmIfSetToYesWillOverrideUseModemOption">
+ <summary>
+ The lbmIfSetToYesWillOverrideUseModemOption column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.blnUseCommunicationProvider">
+ <summary>
+ The blnUseCommunicationProvider column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.intRecordID_MessengerCommunicationProvider">
+ <summary>
+ The intRecordID_MessengerCommunicationProvider column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.intNumberOfSecondsToWaitToRun">
+ <summary>
+ The intNumberOfSecondsToWaitToRun column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.lblMessengerConfigurationModemSettings">
+ <summary>
+ The lblMessengerConfigurationModemSettings column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.lbmUseCommunicationProviderWillOverrideThisOption">
+ <summary>
+ The lbmUseCommunicationProviderWillOverrideThisOption column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.blnUseModem">
+ <summary>
+ The blnUseModem column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.txtModemManufacturer">
+ <summary>
+ The txtModemManufacturer column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.txtModemModel">
+ <summary>
+ The txtModemModel column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.txtPhoneNumberAssigned">
+ <summary>
+ The txtPhoneNumberAssigned column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.txtPort">
+ <summary>
+ The txtPort column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.intBaudRate">
+ <summary>
+ The intBaudRate column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.intDataBits">
+ <summary>
+ The intDataBits column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.txtParity">
+ <summary>
+ The txtParity column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.decStopBits">
+ <summary>
+ The decStopBits column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.txtCellularModemAccessPIN">
+ <summary>
+ The txtCellularModemAccessPIN column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.intFailedMessageResendTimeDelayInMinutes">
+ <summary>
+ The intFailedMessageResendTimeDelayInMinutes column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.txtReturnErrorCodeForInvalidPhone">
+ <summary>
+ The txtReturnErrorCodeForInvalidPhone column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.blnDeleteReceivedMessagesFromModem">
+ <summary>
+ The blnDeleteReceivedMessagesFromModem column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.intIntervalToCheckForNewMessagesInMinutes">
+ <summary>
+ The intIntervalToCheckForNewMessagesInMinutes column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.lblMessengerConfigurationEmailSettings">
+ <summary>
+ The lblMessengerConfigurationEmailSettings column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.lbmCellMessengerWillSendEmailsAsOpposedToROCKET">
+ <summary>
+ The lbmCellMessengerWillSendEmailsAsOpposedToROCKET column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.lbmMustAlsoSetCompanySettingToUseMessengerForEmailText">
+ <summary>
+ The lbmMustAlsoSetCompanySettingToUseMessengerForEmailText column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.blnUseMessengerToSendEmailsViaInternet">
+ <summary>
+ The blnUseMessengerToSendEmailsViaInternet column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.lblMessengerConfigurationGeneralSettings">
+ <summary>
+ The lblMessengerConfigurationGeneralSettings column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.txtFileAttachmentPath">
+ <summary>
+ The txtFileAttachmentPath column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.lblMessengerConfigurationTextAlert">
+ <summary>
+ The lblMessengerConfigurationTextAlert column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.lbmUseToNotifyUsersWhenATextIsReceived">
+ <summary>
+ The lbmUseToNotifyUsersWhenATextIsReceived column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.lbmSeperateEmailAddressWithASemicolon">
+ <summary>
+ The lbmSeperateEmailAddressWithASemicolon column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.mmoTextReceiptEmailAlertNotificationList">
+ <summary>
+ The mmoTextReceiptEmailAlertNotificationList column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.mmoTextReceiptEmailMessageToUserList">
+ <summary>
+ The mmoTextReceiptEmailMessageToUserList column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.txtElectronicDataExchangeCode">
+ <summary>
+ The txtElectronicDataExchangeCode column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.lblCalendarReminder">
+ <summary>
+ The lblCalendarReminder column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.dteFollowUpDate">
+ <summary>
+ The dteFollowUpDate column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.txtEventStartTime">
+ <summary>
+ The txtEventStartTime column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.txtEventEndTime">
+ <summary>
+ The txtEventEndTime column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.lblMessengerConfigurationRecordInformation">
+ <summary>
+ The lblMessengerConfigurationRecordInformation column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.blnMakePrivate">
+ <summary>
+ The blnMakePrivate column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.blnActive">
+ <summary>
+ The blnActive column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.txtRecordCreationUser">
+ <summary>
+ The txtRecordCreationUser column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.dteRecordCreationDate">
+ <summary>
+ The dteRecordCreationDate column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.dteRecordUpdateDate">
+ <summary>
+ The dteRecordUpdateDate column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.blnCursor">
+ <summary>
+ The blnCursor column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.intRecordID_Company">
+ <summary>
+ The intRecordID_Company column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.intRecordID_Division">
+ <summary>
+ The intRecordID_Division column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.intRecordID">
+ <summary>
+ The intRecordID column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.intRecordID_User_Creation">
+ <summary>
+ The intRecordID_User_Creation column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.blnAttachment">
+ <summary>
+ The blnAttachment column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.blnDeleted">
+ <summary>
+ The blnDeleted column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.blnHighlight">
+ <summary>
+ The blnHighlight column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.blnMemo">
+ <summary>
+ The blnMemo column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.blnProcess">
+ <summary>
+ The blnProcess column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.blnProject">
+ <summary>
+ The blnProject column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.intRecordID_ErrorLog">
+ <summary>
+ The intRecordID_ErrorLog column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.intRecordID_Status">
+ <summary>
+ The intRecordID_Status column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.blnPrint">
+ <summary>
+ The blnPrint column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.txtRecordUpdateUser">
+ <summary>
+ The txtRecordUpdateUser column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.dteRecordSynchronization">
+ <summary>
+ The dteRecordSynchronization column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.blnWebSearch">
+ <summary>
+ The blnWebSearch column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.blnSecurity">
+ <summary>
+ The blnSecurity column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.blnErrorLog">
+ <summary>
+ The blnErrorLog column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.blnAuditTrail">
+ <summary>
+ The blnAuditTrail column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.txtFieldValueGenerator">
+ <summary>
+ The txtFieldValueGenerator column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.blnSystemRecord">
+ <summary>
+ The blnSystemRecord column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.blnEcommerceTransmit">
+ <summary>
+ The blnEcommerceTransmit column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.txtGUID">
+ <summary>
+ The txtGUID column is in the DB
+ </summary>
+</member>
+<member name="P:CellModemLibrary.Configuration.tblMessengerConfiguration.blnFavorite">
+ <summary>
+ The blnFavorite column is in the DB
+ </summary>
+</member>
+<member name="M:CellModemLibrary.Configuration.tblMessengerConfiguration.ToString">
+ <summary>
+ Overrides the ToString Function.
+ </summary>
+ <returns>The string representation of the Object</returns>
+</member>
+<member name="M:CellModemLibrary.Message.#ctor">
+ <summary>
+ Constructor #1
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:CellModemLibrary.Message.#ctor(System.Int32,System.String,System.String,System.Nullable{System.DateTime},System.String,System.Int16)">
+ <summary>
+ Constructor #2
+ </summary>
+ <param name="index"></param>
+ <param name="phone"></param>
+ <param name="smsc"></param>
+ <param name="timeStamp"></param>
+ <param name="timeStampRFC"></param>
+ <param name="timeZone"></param>
+ <param name="deleted"></param>
+ <remarks></remarks>
+</member>
+<member name="M:CellModemLibrary.SMS.#ctor">
+ <summary>
+ Constructor #1
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:CellModemLibrary.SMS.#ctor(System.String,System.String,System.Int32,System.String,System.Int32,System.String)">
+ <summary>
+ Constructor #2
+ </summary>
+ <param name="ownNumber"></param>
+ <param name="portName"></param>
+ <param name="baudRate"></param>
+ <param name="parityName"></param>
+ <param name="dataBits"></param>
+ <param name="stopBitsName"></param>
+ <remarks></remarks>
+</member>
+<member name="M:CellModemLibrary.SMS.Connect">
+ <summary>
+ Connect to the GSM Modem
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:CellModemLibrary.SMS.Disconnect">
+ <summary>
+ 'Disconnect from the GSM Modem.
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:CellModemLibrary.SMS.IsError(System.Boolean,System.String)">
+ <summary>
+ Check if any error occured during Connect method
+ </summary>
+ <param name="ShowMsgBox"></param>
+ <param name="MsgBoxTitle"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:CellModemLibrary.SMS.GetParity(System.String)">
+ <summary>
+ Get System.IO.Port.Parity from value specified in string format.
+ </summary>
+ <param name="parityName"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:CellModemLibrary.SMS.GetStopBits(System.String)">
+ <summary>
+ Get System.IO.Port.StopBits from value specified in string format.
+ </summary>
+ <param name="stopBitsName"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:CellModemLibrary.SMS.AddError(System.String)">
+ <summary>
+ Add an error message to the collection.
+ </summary>
+ <param name="errMessage"></param>
+ <remarks></remarks>
+</member>
+<member name="M:CellModemLibrary.SMS.AddError(System.Exception)">
+ <summary>
+ 'Add and exception to the collection.
+ </summary>
+ <param name="ex"></param>
+ <remarks></remarks>
+</member>
+<member name="M:CellModemLibrary.SMS.ClearErrors">
+ <summary>
+ Clear all errors.
+ </summary>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

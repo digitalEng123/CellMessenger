@@ -1,0 +1,38 @@
+C:\Users\willie\Documents\Visual Studio 2008\Projects\CellModemLibrary\bin\Debug\CellModemLibrary.dll
+C:\Users\willie\Documents\Visual Studio 2008\Projects\CellModemLibrary\bin\Debug\CellModemLibrary.pdb
+C:\Users\willie\Documents\Visual Studio 2008\Projects\CellModemLibrary\bin\Debug\CellModemLibrary.xml
+C:\Users\willie\Documents\Visual Studio 2008\Projects\CellModemLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\willie\Documents\Visual Studio 2008\Projects\CellModemLibrary\obj\Debug\CellModemLibrary.Resources.resources
+C:\Users\willie\Documents\Visual Studio 2008\Projects\CellModemLibrary\obj\Debug\CellModemLibrary.vbproj.GenerateResource.Cache
+C:\Users\willie\Documents\Visual Studio 2008\Projects\CellModemLibrary\obj\Debug\CellModemLibrary.dll
+C:\Users\willie\Documents\Visual Studio 2008\Projects\CellModemLibrary\obj\Debug\CellModemLibrary.xml
+C:\Users\willie\Documents\Visual Studio 2008\Projects\CellModemLibrary\obj\Debug\CellModemLibrary.pdb
+C:\Users\willie\Documents\Visual Studio 2008\Projects\CellMessenger\CellModemLibrary\bin\Debug\CellModemLibrary.dll
+C:\Users\willie\Documents\Visual Studio 2008\Projects\CellMessenger\CellModemLibrary\bin\Debug\CellModemLibrary.pdb
+C:\Users\willie\Documents\Visual Studio 2008\Projects\CellMessenger\CellModemLibrary\bin\Debug\CellModemLibrary.xml
+C:\Users\willie\Documents\Visual Studio 2008\Projects\CellMessenger\CellModemLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\willie\Documents\Visual Studio 2008\Projects\CellMessenger\CellModemLibrary\obj\Debug\CellModemLibrary.Resources.resources
+C:\Users\willie\Documents\Visual Studio 2008\Projects\CellMessenger\CellModemLibrary\obj\Debug\CellModemLibrary.vbproj.GenerateResource.Cache
+C:\Users\willie\Documents\Visual Studio 2008\Projects\CellMessenger\CellModemLibrary\obj\Debug\CellModemLibrary.dll
+C:\Users\willie\Documents\Visual Studio 2008\Projects\CellMessenger\CellModemLibrary\obj\Debug\CellModemLibrary.xml
+C:\Users\willie\Documents\Visual Studio 2008\Projects\CellMessenger\CellModemLibrary\obj\Debug\CellModemLibrary.pdb
+D:\vb_projects\CellMessenger\CellModemLibrary\bin\Debug\CellModemLibrary.dll
+D:\vb_projects\CellMessenger\CellModemLibrary\bin\Debug\CellModemLibrary.pdb
+D:\vb_projects\CellMessenger\CellModemLibrary\bin\Debug\CellModemLibrary.xml
+D:\vb_projects\CellMessenger\bin\Debug\CellModemLibrary.dll.config
+D:\vb_projects\CellMessenger\bin\Debug\CellModemLibrary.dll
+D:\vb_projects\CellMessenger\bin\Debug\CellModemLibrary.pdb
+D:\vb_projects\CellMessenger\bin\Debug\CellModemLibrary.xml
+D:\vb_projects\CellMessenger\CellModemLibrary\obj\Debug\CellModemLibrary.vbproj.App.config
+D:\vb_projects\CellMessenger\CellModemLibrary\obj\Debug\CellModemLibrary.vbprojAssemblyReference.cache
+D:\vb_projects\CellMessenger\CellModemLibrary\obj\Debug\Interop.ASPTypeLibrary.dll
+D:\vb_projects\CellMessenger\CellModemLibrary\obj\Debug\Interop.Scripting.dll
+D:\vb_projects\CellMessenger\CellModemLibrary\obj\Debug\Interop.telligent.dll
+D:\vb_projects\CellMessenger\CellModemLibrary\obj\Debug\CellModemLibrary.vbproj.ResolveComReference.cache
+D:\vb_projects\CellMessenger\CellModemLibrary\obj\Debug\CellModemLibrary.Resources.resources
+D:\vb_projects\CellMessenger\CellModemLibrary\obj\Debug\CellModemLibrary.vbproj.GenerateResource.cache
+D:\vb_projects\CellMessenger\CellModemLibrary\obj\Debug\CellModemLibrary.vbproj.CoreCompileInputs.cache
+D:\vb_projects\CellMessenger\CellModemLibrary\obj\Debug\CellModemLibrary.vbproj.CopyComplete
+D:\vb_projects\CellMessenger\CellModemLibrary\obj\Debug\CellModemLibrary.dll
+D:\vb_projects\CellMessenger\CellModemLibrary\obj\Debug\CellModemLibrary.xml
+D:\vb_projects\CellMessenger\CellModemLibrary\obj\Debug\CellModemLibrary.pdb

@@ -1,0 +1,122 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CellModemLibrary
+</name>
+</assembly>
+<members>
+<member name="T:CellModemLibrary.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:CellModemLibrary.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:CellModemLibrary.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:CellModemLibrary.Message.#ctor">
+ <summary>
+ Constructor #1
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:CellModemLibrary.Message.#ctor(System.Int32,System.String,System.String,System.Nullable{System.DateTime},System.String,System.Int16)">
+ <summary>
+ Constructor #2
+ </summary>
+ <param name="index"></param>
+ <param name="phone"></param>
+ <param name="smsc"></param>
+ <param name="timeStamp"></param>
+ <param name="timeStampRFC"></param>
+ <param name="timeZone"></param>
+ <param name="deleted"></param>
+ <remarks></remarks>
+</member>
+<member name="M:CellModemLibrary.SMS.#ctor">
+ <summary>
+ Constructor #1
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:CellModemLibrary.SMS.#ctor(System.String,System.String,System.Int32,System.String,System.Int32,System.String)">
+ <summary>
+ Constructor #2
+ </summary>
+ <param name="ownNumber"></param>
+ <param name="portName"></param>
+ <param name="baudRate"></param>
+ <param name="parityName"></param>
+ <param name="dataBits"></param>
+ <param name="stopBitsName"></param>
+ <remarks></remarks>
+</member>
+<member name="M:CellModemLibrary.SMS.Connect">
+ <summary>
+ Connect to the GSM Modem
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:CellModemLibrary.SMS.Disconnect">
+ <summary>
+ 'Disconnect from the GSM Modem.
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:CellModemLibrary.SMS.IsError(System.Boolean,System.String)">
+ <summary>
+ Check if any error occured during Connect method
+ </summary>
+ <param name="ShowMsgBox"></param>
+ <param name="MsgBoxTitle"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:CellModemLibrary.SMS.GetParity(System.String)">
+ <summary>
+ Get System.IO.Port.Parity from value specified in string format.
+ </summary>
+ <param name="parityName"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:CellModemLibrary.SMS.GetStopBits(System.String)">
+ <summary>
+ Get System.IO.Port.StopBits from value specified in string format.
+ </summary>
+ <param name="stopBitsName"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:CellModemLibrary.SMS.AddError(System.String)">
+ <summary>
+ Add an error message to the collection.
+ </summary>
+ <param name="errMessage"></param>
+ <remarks></remarks>
+</member>
+<member name="M:CellModemLibrary.SMS.AddError(System.Exception)">
+ <summary>
+ 'Add and exception to the collection.
+ </summary>
+ <param name="ex"></param>
+ <remarks></remarks>
+</member>
+<member name="M:CellModemLibrary.SMS.ClearErrors">
+ <summary>
+ Clear all errors.
+ </summary>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

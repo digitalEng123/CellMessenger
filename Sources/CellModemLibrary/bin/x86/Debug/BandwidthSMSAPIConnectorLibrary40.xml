@@ -1,0 +1,763 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+BandwidthSMSAPIConnectorLibrary40
+</name>
+</assembly>
+<members>
+<member name="T:BandwidthSMSAPIConnectorLibrary40.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.CreatePhoneNumberData">
+ <summary>Parameters to create an phone number</summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.CreatePhoneNumberData.Name">
+ <summary>A name you choose for this number.</summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.CreatePhoneNumberData.Number">
+ <summary>The telephone number in E.164 format.</summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.CreatePhoneNumberData.ApplicationId">
+ <summary>
+   The unique id of an Application you want to associate with this number.
+ </summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.CreatePhoneNumberData.FallbackNumber">
+ <summary>
+   Number to transfer an incoming call when the callback/fallback events can't be delivered.
+ </summary>
+</member>
+<member name="T:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.Error">
+ <summary>Error information</summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.Error.Id">
+ <summary>The unique identifier for the error.</summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.Error.Time">
+ <summary>The time the error occurred</summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.Error.Category">
+ <summary>The error category</summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.Error.Code">
+ <summary>
+   A specific error code string that identifies the type of error.
+ </summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.Error.Message">
+ <summary>
+   A message that describes the error condition in detail.
+ </summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.Error.Details">
+ <summary>
+   A list of name/value pairs of additional details that may help you debug the error.
+ </summary>
+</member>
+<member name="T:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.ErrorCategory">
+ <summary>
+ Possible error categories
+ </summary>
+</member>
+<member name="T:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.ErrorDetail">
+ <summary>Error detail (name/value pair)</summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.ErrorDetail.Name">
+ <summary>Name</summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.ErrorDetail.Value">
+ <summary>Value</summary>
+</member>
+<member name="T:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.ErrorQuery">
+ <summary>
+ Query to get errors
+ </summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.ErrorQuery.Size">
+ <summary>
+   Used for pagination to indicate the size of each page requested for querying a list of errors. If no value is
+   specified the default value is 25 (maximum value 1000).
+ </summary>
+</member>
+<member name="T:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.IError">
+ <summary>
+ Access to Error Api
+ </summary>
+</member>
+<member name="M:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.IError.List(BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.ErrorQuery,System.Nullable{System.Threading.CancellationToken})">
+ <summary>Get a list of errors</summary>
+ <param name="query">Optional query parameters</param>
+ <param name="cancellationToken">&gt;Optional token to cancel async operation</param>
+ <returns>Collection with <see cref="T:Bandwidth.Net.Api.Error" /> instances</returns>
+ <example>
+   <code>
+ var errors = client.Error.List();
+ </code>
+ </example>
+</member>
+<member name="M:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.IError.GetAsync(System.String,System.Nullable{System.Threading.CancellationToken})">
+ <summary>Get information about an error</summary>
+ <param name="errorId">Id of error to get</param>
+ <param name="cancellationToken">Optional token to cancel async operation</param>
+ <returns>Task with <see cref="T:Bandwidth.Net.Api.Error" />Error instance</returns>
+ <example>
+   <code>
+ var error = await client.Error.GetAsync("errorId");
+ </code>
+ </example>
+</member>
+<member name="T:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.IMessage">
+ <summary>Access to Message Api</summary>
+</member>
+<member name="M:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.IMessage.List(BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.MessageQuery,System.Nullable{System.Threading.CancellationToken})">
+ <summary>Get a list of messages</summary>
+ <param name="query">Optional query parameters</param>
+ <param name="cancellationToken">&gt;Optional token to cancel async operation</param>
+ <returns>Collection with <see cref="T:Bandwidth.Net.Api.Message" /> instances</returns>
+ <example>
+   <code>
+ var messages = client.Message.List();
+ </code>
+ </example>
+</member>
+<member name="M:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.IMessage.SendAsync(BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.MessageData,System.Nullable{System.Threading.CancellationToken})">
+ <summary>Send a message.</summary>
+ <param name="data">Parameters of new message</param>
+ <param name="cancellationToken">Optional token to cancel async operation</param>
+ <returns>Created message Id</returns>
+ <example>
+   <code>
+ var messageId = await client.Message.SendAsync(new MessageData{ From = "from", To = "to", Text = "Hello"});
+ </code>
+ </example>
+</member>
+<member name="M:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.IMessage.SendAsync(BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.MessageData[],System.Nullable{System.Threading.CancellationToken})">
+ <summary>Send a message.</summary>
+ <param name="data">Array of parameters of new messages</param>
+ <param name="cancellationToken">Optional token to cancel async operation</param>
+ <returns>Instance of created message</returns>
+ <example>
+   <code>
+ var messages = await client.Message.SendAsync(new[]{new MessageData{ From = "from", To = "to", Text = "Hello"}});
+ </code>
+ </example>
+</member>
+<member name="M:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.IMessage.GetAsync(System.String,System.Nullable{System.Threading.CancellationToken})">
+ <summary>Get information about a message</summary>
+ <param name="messageId">Id of message to get</param>
+ <param name="cancellationToken">Optional token to cancel async operation</param>
+ <returns>Task with <see cref="T:Bandwidth.Net.Api.Message" />Message instance</returns>
+ <example>
+   <code>
+ var message = await client.Message.GetAsync("messageId");
+ </code>
+ </example>
+</member>
+<member name="T:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.IPhoneNumber">
+ <summary>
+ Access to PhoneNumber Api
+ </summary>
+</member>
+<member name="M:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.IPhoneNumber.List(BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.PhoneNumberQuery,System.Nullable{System.Threading.CancellationToken})">
+ <summary>Get a list of users phone numbers</summary>
+ <param name="query">Optional query parameters</param>
+ <param name="cancellationToken">&gt;Optional token to cancel async operation</param>
+ <returns>Collection with <see cref="T:Bandwidth.Net.Api.PhoneNumber" /> instances</returns>
+ <example>
+   <code>
+ var phoneNumbers = client.PhoneNumber.List();
+ </code>
+ </example>
+</member>
+<member name="M:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.IPhoneNumber.CreateAsync(BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.CreatePhoneNumberData,System.Nullable{System.Threading.CancellationToken})">
+ <summary>Allocate a number so you can use it.</summary>
+ <param name="data">Parameters of new phone number</param>
+ <param name="cancellationToken">Optional token to cancel async operation</param>
+ <returns>Created phone number id</returns>
+ <example>
+   <code>
+ var phoneNumberId = await client.PhoneNumber.CreateAsync(new CreatePhoneNumberData{ Number = "+1234567890"});
+ </code>
+ </example>
+</member>
+<member name="M:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.IPhoneNumber.GetAsync(System.String,System.Nullable{System.Threading.CancellationToken})">
+ <summary>Get information about a phone number</summary>
+ <param name="phoneNumberId">Id of phone number to get</param>
+ <param name="cancellationToken">Optional token to cancel async operation</param>
+ <returns>Task with <see cref="T:Bandwidth.Net.Api.PhoneNumber" />PhoneNumber instance</returns>
+ <example>
+   <code>
+ var phoneNumber = await client.PhoneNumber.GetAsync("phoneNumberId");
+ </code>
+ </example>
+</member>
+<member name="M:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.IPhoneNumber.UpdateAsync(System.String,BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.UpdatePhoneNumberData,System.Nullable{System.Threading.CancellationToken})">
+ <summary>Make changes to a number</summary>
+ <param name="phoneNumberId">Id of phoneNumber to change</param>
+ <param name="data">Changed data</param>
+ <param name="cancellationToken">Optional token to cancel async operation</param>
+ <returns>Task instance for async operation</returns>
+ <example>
+   <code>
+ await client.PhoneNumber.UpdateAsync("phoneNumberId", new UpdatePhoneNumberData {ApplicationId = "appId"});
+ </code>
+ </example>
+</member>
+<member name="M:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.IPhoneNumber.DeleteAsync(System.String,System.Nullable{System.Threading.CancellationToken})">
+ <summary>Remove a phone number</summary>
+ <param name="phoneNumberId">Id of phoneNumber to remove</param>
+ <param name="cancellationToken">Optional token to cancel async operation</param>
+ <returns>Task instance for async operation</returns>
+ <example>
+   <code>
+ await client.PhoneNumber.DeleteAsync("phoneNumberId");
+ </code>
+ </example>
+</member>
+<member name="T:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.Message">
+ <summary>Message information</summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.Message.Id">
+ <summary>The unique identifier for the message.</summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.Message.From">
+ <summary>
+ The message sender's telephone number (or short code).
+ </summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.Message.To">
+ <summary>Message recipient telephone number (or short code).</summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.Message.Direction">
+ <summary>Direction of message</summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.Message.Text">
+ <summary>The message contents.</summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.Message.Media">
+ <summary>
+ Array containing list of media urls to be sent as content for an mms.
+ </summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.Message.State">
+ <summary>Message state</summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.Message.Time">
+ <summary>The time when the message was completed.</summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.Message.CallbackUrl">
+ <summary>
+ The complete URL where the events related to the outgoing message will be sent.
+ </summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.Message.CallbackTimeout">
+ <summary>
+ Determine how long should the platform wait for callbackUrl's response before timing out (milliseconds).
+ </summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.Message.FallbackUrl">
+ <summary>
+ The server URL used to send message events if the request to callbackUrl fails.
+ </summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.Message.Tag">
+ <summary>
+ A string that will be included in the callback events of the message.
+ </summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.Message.ReceiptRequested">
+ <summary>Requested receipt option for outbound messages</summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.Message.DeliveryState">
+ <summary>Message delivery state</summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.Message.DeliveryCode">
+ <summary>Numeric value of deliver code, see table for values.</summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.Message.DeliveryDescription">
+ <summary>
+ Message delivery description for the respective delivery code
+ </summary>
+</member>
+<member name="T:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.MessageData">
+ <summary>Parameters to send an message</summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.MessageData.From">
+ <summary>
+ The message sender's telephone number (or short code).
+ </summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.MessageData.To">
+ <summary>Message recipient telephone number (or short code).</summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.MessageData.Text">
+ <summary>The message contents.</summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.MessageData.Media">
+ <summary>
+ Array containing list of media urls to be sent as content for an mms.
+ </summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.MessageData.CallbackUrl">
+ <summary>
+ The complete URL where the events related to the outgoing message will be sent.
+ </summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.MessageData.CallbackTimeout">
+ <summary>
+ Determine how long should the platform wait for callbackUrl's response before timing out (milliseconds).
+ </summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.MessageData.FallbackUrl">
+ <summary>
+ The server URL used to send message events if the request to callbackUrl fails.
+ </summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.MessageData.Tag">
+ <summary>
+ A string that will be included in the callback events of the message.
+ </summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.MessageData.ReceiptRequested">
+ <summary>Requested receipt option for outbound messages</summary>
+</member>
+<member name="T:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.MessageDeliveryState">
+ <summary>Possible delivery states</summary>
+</member>
+<member name="T:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.MessageDirection">
+ <summary>Directions of message</summary>
+</member>
+<member name="T:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.MessageQuery">
+ <summary>Query to get messages</summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.MessageQuery.From">
+ <summary>
+ The phone number to filter the messages that came from (must be in E.164 format, like +19195551212).
+ </summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.MessageQuery.To">
+ <summary>
+ The phone number to filter the messages that was sent to (must be in E.164 format, like +19195551212).
+ </summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.MessageQuery.FromDateTime">
+ <summary>The starting date time to filter the messages</summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.MessageQuery.ToDateTime">
+ <summary>The ending date time to filter the messages</summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.MessageQuery.Direction">
+ <summary>Filter by direction of message</summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.MessageQuery.State">
+ <summary>The message state to filter.</summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.MessageQuery.DeliveryState">
+ <summary>The message delivery state to filter.</summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.MessageQuery.SortOrder">
+ <summary>How to sort the messages.</summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.MessageQuery.Size">
+ <summary>
+   Used for pagination to indicate the size of each page requested for querying a list of messages. If no value is
+   specified the default value is 25 (maximum value 1000).
+ </summary>
+</member>
+<member name="T:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.MessageQueryDateTime">
+ <summary>
+ Custom DateTime type to support specific serializing to string. It can be converted to/from date time implicitly
+ </summary>
+</member>
+<member name="M:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.MessageQueryDateTime.#ctor(System.DateTime)">
+ <summary>Constructor</summary>
+ <param name="time">DateTime instance</param>
+</member>
+<member name="M:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.MessageQueryDateTime.op_Implicit(BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.MessageQueryDateTime)~System.DateTime">
+ <summary>
+ MessageQueryDateTime -&gt; DateTime  implicit convert
+ </summary>
+ <param name="time">Instance to convert</param>
+</member>
+<member name="M:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.MessageQueryDateTime.op_Implicit(System.DateTime)~BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.MessageQueryDateTime">
+ <summary>DateTime -&gt; MessageQueryDateTime implicit convert</summary>
+ <param name="time">Instance to convert</param>
+</member>
+<member name="M:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.MessageQueryDateTime.ToString">
+ <summary>Convert to string</summary>
+ <returns>String presentation</returns>
+</member>
+<member name="T:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.MessageReceiptRequested">
+ <summary>Requested receipt options for outbound messages</summary>
+</member>
+<member name="T:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.MessageState">
+ <summary>
+ Possible message states
+ </summary>
+</member>
+<member name="T:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.PhoneNumber">
+ <summary>
+ Phone number information
+ </summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.PhoneNumber.Id">
+ <summary>
+ The unique identifier for the phone number.
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.PhoneNumber.Name">
+ <summary>
+ A name you choose for this number.
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.PhoneNumber.Number">
+ <summary>
+ The telephone number in E.164 format.
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.PhoneNumber.NationalNumber">
+ <summary>
+   The telephone number in a friendly national format, e.g. (555) 5555-5555
+ </summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.PhoneNumber.City">
+ <summary>
+ The city of the phone number.
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.PhoneNumber.State">
+ <summary>
+ The state of the phone number.
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.PhoneNumber.ApplicationId">
+ <summary>
+ The unique id of an Application you want to associate with this number.
+ </summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.PhoneNumber.FallbackNumber">
+ <summary>
+ Number to transfer an incoming call when the callback/fallback events can't be delivered.
+ </summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.PhoneNumber.Price">
+ <summary>
+ The monthly price for this number.
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.PhoneNumber.CreatedTime">
+ <summary>
+ Date when the number was created.
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.PhoneNumber.NumberState">
+ <summary>
+ The phone number state
+ </summary>
+ <returns></returns>
+</member>
+<member name="T:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.PhoneNumberQuery">
+ <summary>Query to get phone numbers</summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.PhoneNumberQuery.Size">
+ <summary>
+   Used for pagination to indicate the size of each page requested for querying a list of numbers. If no value is
+   specified the default value is 25 (maximum value 1000).
+ </summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.PhoneNumberQuery.ApplicationId">
+ <summary>
+   Used to filter the retrieved list of numbers by an associated application ID.
+ </summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.PhoneNumberQuery.State">
+ <summary>
+   Used to filter the retrieved list of numbers allocated for the authenticated user by a US state.
+ </summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.PhoneNumberQuery.Name">
+ <summary>
+   Used to filter the retrieved list of numbers allocated for the authenticated user by it's name.
+ </summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.PhoneNumberQuery.City">
+ <summary>
+   Used to filter the retrieved list of numbers allocated for the authenticated user by it's city.
+ </summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.PhoneNumberQuery.NumberState">
+ <summary>
+   Used to filter the retrieved list of numbers allocated for the authenticated user by the number state.
+ </summary>
+</member>
+<member name="T:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.PhoneNumberState">
+ <summary>
+ Phone number states
+ </summary>
+</member>
+<member name="T:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.SendMessageResult">
+ <summary>Rsult of batch send of some messages</summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.SendMessageResult.Result">
+ <summary>Operation result</summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.SendMessageResult.Location">
+ <summary>Url to new message</summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.SendMessageResult.Id">
+ <summary>Id of new message</summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.SendMessageResult.Error">
+ <summary>Error information (if Result is Error)</summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.SendMessageResult.Message">
+ <summary>Message data</summary>
+</member>
+<member name="T:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.SendMessageResults">
+ <summary>Send message results</summary>
+</member>
+<member name="T:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.SortOrder">
+ <summary>
+ Sort order types
+ </summary>
+</member>
+<member name="T:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.UpdatePhoneNumberData">
+ <summary>Parameters of a phone number to change</summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.UpdatePhoneNumberData.Name">
+ <summary>A name you choose for this number.</summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.UpdatePhoneNumberData.ApplicationId">
+ <summary>
+   The unique id of an Application you want to associate with this number.
+ </summary>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.UpdatePhoneNumberData.FallbackNumber">
+ <summary>
+   Number to transfer an incoming call when the callback/fallback events can't be delivered.
+ </summary>
+</member>
+<member name="T:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.BandwidthException">
+ <summary>BandwidthException</summary>
+</member>
+<member name="F:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.BandwidthException.privateCode">
+ <summary>Status code</summary>
+</member>
+<member name="M:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.BandwidthException.#ctor(System.String,System.Net.HttpStatusCode)">
+ <summary>BandwidthException</summary>
+ <param name="message">Error message</param>
+ <param name="code">Status code</param>
+</member>
+<member name="T:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.Client">
+ <summary>Catapult API client</summary>
+</member>
+<member name="F:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.Client.m_Error">
+ <summary>Access to Error Api</summary>
+</member>
+<member name="F:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.Client.privateMessage">
+ <summary>Access to Message Api</summary>
+</member>
+<member name="F:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.Client.privatePhoneNumber">
+ <summary>Access to PhoneNumber Api</summary>
+</member>
+<member name="M:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.Client.#ctor(System.String,System.String,System.String,System.String,BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.IHttp)">
+ <summary>Constructor</summary>
+ <param name="userId">Id of user on Catapult API</param>
+ <param name="apiToken">Authorization token of Catapult API</param>
+ <param name="apiSecret">Authorization secret of Catapult API</param>
+ <param name="baseUrl">Base url of Catapult API server</param>
+ <param name="http">Optional processor of http requests. Use it to owerwrite default http request processing (useful for test, logs, etc)</param>
+ <example>
+ Regular usage
+ <code>
+ var client = new Client("userId", "apiToken", "apiSecret");
+ </code>
+ 
+ Using another server
+ <code>
+ var client = new Client("userId", "apiToken", "apiSecret", "https://another.server");
+ </code>
+ 
+ Using with own implementaion of HTTP processing (usefull for tests)
+ <code>
+ var client = new Client("userId", "apiToken", "apiSecret", "https://another.server", new YourMockHttp());
+ </code>
+ </example>
+</member>
+<member name="T:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.IHttp">
+ <summary>Http request processor interface.</summary>
+ <remarks>
+   Implement own class with this interface to overwrite default http request processing (usefull for tests, logs, etc.)
+ </remarks>
+</member>
+<member name="M:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.IHttp.SendAsync(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpCompletionOption,System.Nullable{System.Threading.CancellationToken})">
+ <summary>Send http request and return response message</summary>
+ <param name="request">Request message to send</param>
+ <param name="completionOption">
+   Indicates if current http operation should be considered completed either as soon as a
+   response is available, or after reading the entire response message including the content.
+ </param>
+ <param name="cancellationToken">Cancelation token for current async operation</param>
+ <returns>Task with response message</returns>
+</member>
+<member name="T:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.InvalidBaseUrlException">
+ <summary>
+ InvalidBaseUrlException
+ </summary>
+</member>
+<member name="M:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.InvalidBaseUrlException.#ctor">
+ <summary>
+ InvalidBaseUrlException
+ </summary>
+</member>
+<member name="T:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.MissingCredentialsException">
+ <summary>
+ MissingCredentialsException
+ </summary>
+</member>
+<member name="M:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.MissingCredentialsException.#ctor">
+ <summary>MissingCredentialsException</summary>
+</member>
+<member name="T:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.RateLimitException">
+ <summary>RateLimitException</summary>
+</member>
+<member name="F:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.RateLimitException.privateResetTime">
+ <summary>Time after which your rate limit should be cleared</summary>
+</member>
+<member name="M:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.RateLimitException.#ctor(System.DateTime)">
+ <summary>RateLimitException</summary>
+ <param name="resetTime">Time after which your rate limit should be cleared</param>
+</member>
+<member name="P:BandwidthSMSAPIConnectorLibrary40.RestException.ExceptionObject">
+ <summary>
+ The exception object.
+ </summary>
+</member>
+<member name="M:BandwidthSMSAPIConnectorLibrary40.RestException.#ctor">
+ <summary>
+ Initializes a new instance of the OandaRestException class.
+ </summary>
+</member>
+<member name="M:BandwidthSMSAPIConnectorLibrary40.RestException.#ctor(System.String)">
+ <summary>
+ Initializes a new instance of the OandaRestException class with a specified error  message.
+ </summary>
+ <param name="message">The message that describes the error.</param>
+</member>
+<member name="M:BandwidthSMSAPIConnectorLibrary40.RestException.#ctor(System.String,System.Object)">
+ <summary>
+ Initializes a new instance of the OandaRestException class with a specified error  message.
+ </summary>
+ <param name="message">The message that describes the error.</param>
+ <param name="exceptionObject">And exception object that contains additional details.</param>
+</member>
+<member name="M:BandwidthSMSAPIConnectorLibrary40.RestException.#ctor(System.String,System.Exception)">
+ <summary>
+ Initializes a new instance of the System.Exception class with a specified error
+ message and a reference to the inner exception that is the cause of this exception.
+ </summary>
+ <param name="message">The error message that explains the reason for the exception.</param>
+ <param name="innerException">The exception that is the cause of the current exception, or a null reference
+ (Nothing in Visual Basic) if no inner exception is specified.</param>
+</member>
+<member name="M:BandwidthSMSAPIConnectorLibrary40.RestException.#ctor(System.String,System.Exception,System.Object)">
+ <summary>
+ Initializes a new instance of the System.Exception class with a specified error
+ </summary>
+ <param name="message">The error message that explains the reason for the exception.</param>
+ <param name="innerException">The exception that is the cause of the current exception, or a null reference</param>
+ <param name="exceptionObject">And exception object that contains additional details.</param>
+</member>
+<member name="M:BandwidthSMSAPIConnectorLibrary40.APIHelper.GetASingleMessage(System.String)">
+ <summary>
+ Gets information about a previously sent or received message. No query parameters are supported.
+ We only store the message contents For 30 days. Any messages older than 30 days will Not contain text.
+ </summary>
+ <param name="messageId">The message id.</param>
+ <returns></returns>
+</member>
+<member name="M:BandwidthSMSAPIConnectorLibrary40.APIHelper.GetAllMessages">
+ <summary>
+ Gets a list messages you have sent or received.
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:BandwidthSMSAPIConnectorLibrary40.APIHelper.GetAllMessagesByFromNumber(System.String)">
+ <summary>
+ Gets a list messages that were sent or received by the specified number.
+ </summary>
+ <param name="fromNumber">One of your telephone numbers the message came
+ from (must be in E.164 format, like +19195551212).</param>
+ <returns></returns>
+</member>
+<member name="M:BandwidthSMSAPIConnectorLibrary40.APIHelper.GetAllMessagesByFromNumberDirectionNToDtm(System.String,BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.MessageDirection,System.Nullable{System.DateTime})">
+ <summary>
+ Gets a list messages by direction, the from number, and the to date time.
+ </summary>
+ <param name="fromNumber">One of your telephone numbers the message came
+ from (must be in E.164 format, like +19195551212).</param>
+ <param name="direction">The direction. (e.g. In|Out) <seealso cref="T:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.MessageDirection"/></param>
+ <param name="toDateTimeUTC"></param>
+ <returns></returns>
+</member>
+<member name="M:BandwidthSMSAPIConnectorLibrary40.APIHelper.GetAllMessagesByToNumberDirectionNToDtm(System.String,BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.MessageDirection,System.Nullable{System.DateTime},System.Nullable{System.DateTime})">
+ <summary>
+ Gets a list messages by direction, the from number, and the to date time.
+ </summary>
+ <param name="toNumber">One of your telephone numbers the message came
+ from (must be in E.164 format, like +19195551212).</param>
+ <param name="direction">The direction. (e.g. In|Out) <seealso cref="T:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.MessageDirection"/></param>
+ <param name="toDateTimeUTC"></param>
+ <returns></returns>
+</member>
+<member name="M:BandwidthSMSAPIConnectorLibrary40.APIHelper.GetAllMessagesByQueury(BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.MessageQuery)">
+ <summary>
+ Gets a list messages sent or received by the specified query.
+ </summary>
+ <param name="objMessageQuery">The <see cref="T:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.MessageQuery"/>.</param>
+ <returns></returns>
+</member>
+<member name="M:BandwidthSMSAPIConnectorLibrary40.APIHelper.GetListOfPhoneNumbers(System.Nullable{System.Int32},System.String,System.String,System.String,System.String,System.Nullable{BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.PhoneNumberState})">
+ <summary>
+ Gets a list of your numbers.
+ </summary>
+ <param name="size">Optional: Used for pagination to indicate the size of each page requested for querying a
+ list of phone numbers. If no value is specified the default value is 25. (Maximum value 1000)</param>
+ <param name="name">Optional: Used to filter the retrieved list of numbers allocated for the authenticated user by it’s name.</param>
+ <param name="applicationId">Optional: Used to filter the retrieved list of numbers by an associated application ID.</param>
+ <param name="state">Optional: Used to filter the retrieved list of numbers allocated for the authenticated user by a US state.</param>
+ <param name="city">Optional: Used to filter the retrieved list of numbers allocated for the authenticated user by it’s city.</param>
+ <param name="numberState">Optional: Used to filter the retrieved list of numbers allocated for
+ the authenticated user by the number state. <seealso cref="T:BandwidthSMSAPIConnectorLibrary40.BandWidth.Net.API.PhoneNumberState"/></param>
+ <returns></returns>
+</member>
+<member name="M:BandwidthSMSAPIConnectorLibrary40.APIHelper.GePhoneNumberInfo(System.String)">
+ <summary>
+ Gets information about one of your numbers using the number's ID.
+ </summary>
+ <param name="phoneNumber">The phone number a E.164 number string, like "+19195551212".</param>
+ <returns></returns>
+</member>
+</members>
+</doc>
